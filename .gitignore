@@ -7,3 +7,4 @@ java_web/.settings/org.eclipse.wst.common.project.facet.core.xml
 java_web/.settings/org.eclipse.wst.jsdt.ui.superType.container
 java_web/.settings/org.eclipse.wst.jsdt.ui.superType.name
 java_web/WebContent/META-INF/MANIFEST.MF
+*.class
