@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class LoginServlet
  */
-@WebServlet("/login")
+/* @WebServlet("/login") */
 public class LoginServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
@@ -54,7 +54,7 @@ public class LoginServlet extends HttpServlet {
 		out.print(data);
 
 		user_address = URLEncoder.encode(user_address, "utf-8");
-		out.print("<a href='/pro09/second?user_id=" + user_id 
+		out.print("<a href='/java_web/second?user_id=" + user_id 
 				             + "&user_pw=" + user_pw 
 				             + "&user_address=" + user_address
 				             + "'>두 번째 서블릿으로 보내기</a>");
