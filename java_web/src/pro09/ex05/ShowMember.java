@@ -1,4 +1,4 @@
-package login;
+package pro09.ex05;
 
 import java.io.IOException;
 import java.io.PrintWriter;
