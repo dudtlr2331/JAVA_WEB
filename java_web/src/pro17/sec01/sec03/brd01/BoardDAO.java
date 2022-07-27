@@ -1,4 +1,4 @@
-package pro17.sec01.sec03;
+package pro17.sec01.sec03.brd01;
 
 import java.sql.Connection;
 import java.sql.Date;
