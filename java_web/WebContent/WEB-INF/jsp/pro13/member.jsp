@@ -6,17 +6,17 @@
 %>    
 
 <%
-   String   id=request.getParameter("id");
-   String  pwd = request.getParameter("pwd");
-   String  name = request.getParameter("name");
-   String  email = request.getParameter("email");
- 
-  
-   MemberBean  m =  new MemberBean(id, pwd, name, email);
-   MemberDAO  memberDAO=new MemberDAO();
-   memberDAO.addMember(m);
-   List membersList = memberDAO.listMembers();	
-%>
+    	String   id=request.getParameter("id");
+       String  pwd = request.getParameter("pwd");
+       String  name = request.getParameter("name");
+       String  email = request.getParameter("email");
+     
+      
+       MemberBean  m =  new MemberBean(id, pwd, name, email);
+       MemberController  memberDAO=new MemberController();
+       memberDAO.addMember(m);
+       List membersList = memberDAO.listMembers();
+    %>
 <!DOCTYPE html>
 <html>
 <head>

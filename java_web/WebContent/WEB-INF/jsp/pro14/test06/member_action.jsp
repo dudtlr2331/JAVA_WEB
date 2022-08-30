@@ -13,7 +13,7 @@
 <jsp:useBean  id="m" class="sec02.ex01.MemberBean" />
 <jsp:setProperty name="m" property="*"  />
 <%
-   MemberDAO memDAO=new MemberDAO();
+	MemberController memDAO=new MemberController();
    memDAO.addMember(m);
    List membersList =memDAO.listMembers();
    request.setAttribute("membersList", membersList);

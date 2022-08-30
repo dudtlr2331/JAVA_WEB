@@ -6,9 +6,9 @@ import org.springframework.dao.DataAccessException;
 import com.spring.member.dao.MemberDAO;
 
 public class MemberServiceImpl implements MemberService {
-	private MemberDAO memberDAO;
+	private MemberController memberDAO;
 
-	public void setMemberDAO(MemberDAO memberDAO) {
+	public void setMemberDAO(MemberController memberDAO) {
 		this.memberDAO = memberDAO;
 	}
 
