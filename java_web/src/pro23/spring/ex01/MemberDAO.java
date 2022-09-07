@@ -1,4 +1,4 @@
-package pro23.spring;
+package pro23.spring.ex01;
 
 import java.io.Reader;
 import java.util.List;
